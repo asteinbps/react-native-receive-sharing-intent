@@ -16,7 +16,7 @@ class ShareViewController: SLComposeServiceViewController {
  let videoContentType = kUTTypeMovie as String
  let textContentType = kUTTypeText as String
  let urlContentType = kUTTypeURL as String
- let fileURLType = kUTTypeFileURL as String;
+ let fileURLType = kUTTypeFileURL as String
  
  override func isContentValid() -> Bool {
    return true
